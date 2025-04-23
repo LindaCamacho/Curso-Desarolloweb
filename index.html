@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title>  
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;
+    0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">    
 
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
@@ -15,12 +23,14 @@
         <h1 class="titulo">Juan de la Torre <span>Freelancer</span></h1> 
     </header>
 
-    <nav>
-        <a href = "#">Inicio</a>
-        <a href = "#">Sobre mí</a>
-        <a href = "#">Clientes</a>
-        <a href = "#">Contacto</a>
-    </nav>
+    <div class = "nav-bg">
+        <nav class = "navegacion_princpipal contenedor">
+            <a href = "#">Inicio</a>
+            <a href = "#">Sobre mí</a>
+            <a href = "#">Clientes</a>
+            <a href = "#">Contacto</a>
+        </nav>
+    </div>
     
     <section>
         <h2>Diseño y desarrollo Web Freelancer</h2>
@@ -31,6 +41,7 @@
           </svg>
 
         <p>Chapa de Mota, Ed. de México</p>
+        
     </section>
 
     <a href="#">Contactar</a>
@@ -66,7 +77,8 @@
               </svg>
 
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="48" height="48" stroke-width="1">
-                <path d="M8.286 7.008c-3.216 0 -4.286 3.23 -4.286 5.92c0 3.229 2.143 8.072 4.286 8.072c1.165 -.05 1.799 -.538 3.214 -.538c1.406 0 1.607 .538 3.214 .538s4.286 -3.229 4.286 -5.381c-.03 -.011 -2.649 -.434 -2.679 -3.23c-.02 -2.335 2.589 -3.179 2.679 -3.228c-1.096 -1.606 -3.162 -2.113 -3.75 -2.153c-1.535 -.12 -3.032 1.077 -3.75 1.077c-.729 0 -2.036 -1.077 -3.214 -1.077z"></path>
+                <path d="M8.286 7.008c-3.216 0 -4.286 3.23 -4.286 5.92c0 3.229 2.143 8.072 4.286 8.072c1.165 -.05 1.799 -.538 3.214 -.538c1.406 0 1.607 .538 3.214 .538s4.286 -3.229 4.286 -5.381c-.03
+                -.011 -2.649 -.434 -2.679 -3.23c-.02 -2.335 2.589 -3.179 2.679 -3.228c-1.096 -1.606 -3.162 -2.113 -3.75 -2.153c-1.535 -.12 -3.032 1.077 -3.75 1.077c-.729 0 -2.036 -1.077 -3.214 -1.077z"></path>
                 <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2"></path>
               </svg>
 
